@@ -1,0 +1,34 @@
+body {
+   font-family: Montserrat;
+}
+
+.about-me-section{
+ 
+}
+
+.sidebar-section{
+    background-color: #dfeeff;
+}
+
+.app-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.right-side-container{
+    padding-left: 88px;
+}
+
+.contact-container{
+    padding-left: 80px;
+}
+
+.tech-skills-container{
+    padding-left: 80px;
+}
+
+.soft-skills-container{
+    padding-left: 80px;
+}
