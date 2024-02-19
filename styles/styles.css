@@ -1,15 +1,7 @@
+/* Our App */
 body {
    font-family: Montserrat;
 }
-
-.about-me-section{
- background-color: orange;
-}
-
-.sidebar-section{
-    background-color: #dfeeff;
-}
-
 .app-wrapper{
     display: flex;
     flex-direction: row-reverse;
@@ -17,14 +9,33 @@ body {
     margin: 40px auto;
 }
 
+/* Sidebar Styles */
+.sidebar-section{
+    background-color: #dfeeff;
+}
+
+.sidebar-image{
+    margin-top: 40px;
+
+}
+
+
+/* Main Content Styles */
 .right-side-container{
     padding-left: 88px;
 }
 
 .contact-container{
-    padding-left: 80px;
+    padding-left: 40px;
 }
+.contacts-header{
+    color: #161d2a;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 
+}
 .tech-skills-container{
     padding-left: 80px;
 }
